@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="assets/style.css">
+  
+
+</head>
+<body>
+    <h1>Crystal Collector Game</h1>
+
+    
+
+    <div id="content">
+        <h2>Instructions</h2>
+
+        <p>
+            You will be given a random number at the start of a game. 
+        </p>
+        <p>
+            There are 4 crystal below. By clicking on a crystal you will be adding to your total score.<br>
+        </p>
+        <p>
+            You will win the game by mataching your total score to random numbers, you lose the game if your total score goes about the random number. 
+        </p>
+        <p>
+            The value of each crystal is hidden from you until you click on it.
+        </p>
+        <p>
+            Each time when the game starts, the game will change the values of each crystals.
+        </p>
+    </div>
+
+
+    <h3 id="guess-text"><br>Number to Guess: <span id="number-to-guess"></span></h3>
+
+    <div  id="win-loss">
+        <h3>Wins: <span id="wins-count">0</span></h3>
+        <h3>Losses: <span id="losses-count">0</span></h3>
+    </div>
+
+  <!-- Note that this div is now empty. We will fill it dynamically -->
+    <div id="crystals">
+    </div>
+
+    <h4>Total Score is:</h4>
+    <h3 id= "score-board"><span id="score-count">0</span></h3>
+
+  
+</body>
+</html>

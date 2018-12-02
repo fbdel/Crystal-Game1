@@ -1,0 +1,56 @@
+.crystal-image {
+    width: 120px;
+    height: 120px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+#content {
+    background-color: orange;
+    width: 600px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+
+}
+
+h1 {
+    background-color: red;
+    width: 500px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 10px;
+
+}
+
+h2 {
+    width: 500px;
+}
+
+h3 {
+    margin-top: 0px;
+}
+#win-loss {
+    background-color: green;
+    width: 100px;
+    
+    
+    
+}
+
+#score-board {
+    background-color: green;
+    width: 300px;
+    height: 90px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px
+}
+#guess-text {
+    background-color:#00ffd5;
+    width: 200px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
